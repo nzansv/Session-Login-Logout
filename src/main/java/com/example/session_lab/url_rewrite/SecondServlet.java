@@ -14,6 +14,7 @@ public class SecondServlet extends HttpServlet {
         out.print("<a href=\"hidden.html\">Hidden Forms</a>|");
         out.print("<a href=\"url.html\">URL Rewrite</a>|");
         out.print("<a href=\"http_session.html\">HTTP Session</a>");
+        out.print("<a href=\"sindex.html\">HTTP Session (Login Logout)</a>");
         String n=request.getParameter("uname");
         out.print("<p>Hello "+n+"<p>");
 

@@ -93,4 +93,35 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
         <servlet-name>s2</servlet-name>
         <url-pattern>/servlet2</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>LoginServletSession</display-name>
+        <servlet-name>LoginServletSession</servlet-name>
+        <servlet-class>com.example.session_lab.session.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServletSession</servlet-name>
+        <url-pattern>/LoginServletSession</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>ProfileServletSession</display-name>
+        <servlet-name>ProfileServletSession</servlet-name>
+        <servlet-class>com.example.session_lab.session.ProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProfileServletSession</servlet-name>
+        <url-pattern>/ProfileServletSession</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>LogoutServletSession</display-name>
+        <servlet-name>LogoutServletSession</servlet-name>
+        <servlet-class>com.example.session_lab.session.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServletSession</servlet-name>
+        <url-pattern>/LogoutServletSession</url-pattern>
+    </servlet-mapping>
 </web-app>
